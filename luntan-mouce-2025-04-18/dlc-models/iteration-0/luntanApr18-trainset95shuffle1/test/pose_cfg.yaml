@@ -1,0 +1,34 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+- - 8
+- - 9
+- - 10
+- - 11
+all_joints_names:
+- nose
+- eye
+- ear
+- neck
+- back
+- root
+- tail
+- point
+- front_leg
+- front_foot
+- after_leg
+- after_foot
+dataset: training-datasets\iteration-0\UnaugmentedDataSet_luntanApr18\luntan_mouce95shuffle1.mat
+global_scale: 0.8
+init_weights: F:\anaconda\envs\deeplabcut\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\efficientnet-b0\model.ckpt
+location_refinement: true
+locref_stdev: 7.2801
+net_type: efficientnet-b0
+num_joints: 12
+scoremap_dir: test
